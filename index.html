@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LumenX — Allenati alla velocità della luce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">LUMEN<span>X</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#programmi">Programmi</a>
+      <a href="#metodo">Metodo</a>
+      <a href="#piani">Piani</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti" class="btn btn-small">Inizia ora</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Apri menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">Piattaforma di fitness online</p>
+      <h1>Allenati alla<br>velocità della <em>luce</em>.</h1>
+      <p class="hero-sub">
+        Programmi di allenamento su misura, coach certificati e progressi
+        misurabili — tutto dal tuo telefono, ovunque tu sia.
+      </p>
+      <div class="hero-actions">
+        <a href="#piani" class="btn btn-primary">Prova gratis 7 giorni</a>
+        <a href="#programmi" class="btn btn-ghost">Scopri i programmi</a>
+      </div>
+    </div>
+
+    <!-- Linea di energia animata (elemento firma) -->
+    <svg class="pulse-line" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,60 L200,60 L240,60 L270,20 L300,100 L330,40 L360,60 L500,60 L540,60 L570,15 L600,105 L630,35 L660,60 L850,60 L890,60 L920,25 L950,95 L980,45 L1010,60 L1200,60"
+            fill="none" stroke="url(#pulseGradient)" stroke-width="3" />
+      <defs>
+        <linearGradient id="pulseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#2E3CFF"/>
+          <stop offset="50%" stop-color="#FFC531"/>
+          <stop offset="100%" stop-color="#2E3CFF"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </section>
+
+  <!-- ===== STATISTICHE ===== -->
+  <section class="stats">
+    <div class="stat">
+      <span class="stat-number" data-target="12000">0</span>
+      <span class="stat-label">Atleti attivi</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-target="340">0</span>
+      <span class="stat-label">Workout disponibili</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-target="28">0</span>
+      <span class="stat-label">Coach certificati</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-target="97">0</span>
+      <span class="stat-label">% clienti soddisfatti</span>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMMI ===== -->
+  <section class="section" id="programmi">
+    <p class="eyebrow">Programmi</p>
+    <h2>Scegli la tua energia</h2>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-icon">⚡</div>
+        <h3>Lumen Burn</h3>
+        <p>HIIT e cardio ad alta intensità per bruciare grassi e aumentare la resistenza. Sessioni da 20–35 minuti.</p>
+        <span class="tag">Dimagrimento</span>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon">🏋️</div>
+        <h3>Lumen Force</h3>
+        <p>Forza e ipertrofia con progressioni settimanali. Con o senza attrezzatura, a casa o in palestra.</p>
+        <span class="tag">Forza</span>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon">🧘</div>
+        <h3>Lumen Flow</h3>
+        <p>Mobilità, yoga e recupero attivo per muoverti meglio, prevenire infortuni e ridurre lo stress.</p>
+        <span class="tag">Mobilità</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== METODO (sezione scura) ===== -->
+  <section class="section section-dark" id="metodo">
+    <p class="eyebrow eyebrow-light">Il metodo</p>
+    <h2>Come funziona LumenX</h2>
+    <div class="steps">
+      <div class="step reveal">
+        <span class="step-num">01</span>
+        <h3>Test iniziale</h3>
+        <p>Rispondi a un questionario e fai un test fisico guidato: costruiamo il tuo profilo di partenza.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step-num">02</span>
+        <h3>Piano su misura</h3>
+        <p>Ricevi un programma settimanale calibrato su obiettivi, livello, tempo e attrezzatura disponibile.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step-num">03</span>
+        <h3>Allenati e misura</h3>
+        <p>Segui i video, registra i carichi e guarda i tuoi progressi crescere settimana dopo settimana.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PIANI / PREZZI ===== -->
+  <section class="section" id="piani">
+    <p class="eyebrow">Piani</p>
+    <h2>Un prezzo, tutta la luce</h2>
+
+    <div class="billing-toggle">
+      <span>Mensile</span>
+      <button class="switch" id="billingSwitch" role="switch" aria-checked="false" aria-label="Passa alla fatturazione annuale">
+        <span class="knob"></span>
+      </button>
+      <span>Annuale <em class="save-badge">-20%</em></span>
+    </div>
+
+    <div class="pricing">
+      <article class="price-card reveal">
+        <h3>Start</h3>
+        <p class="price"><span class="amount" data-monthly="9" data-yearly="7">9</span>€<small>/mese</small></p>
+        <ul>
+          <li>Tutti i workout on demand</li>
+          <li>Piano settimanale automatico</li>
+          <li>Tracciamento progressi</li>
+        </ul>
+        <a href="#contatti" class="btn btn-ghost">Scegli Start</a>
+      </article>
+
+      <article class="price-card featured reveal">
+        <span class="featured-badge">Più scelto</span>
+        <h3>Pro</h3>
+        <p class="price"><span class="amount" data-monthly="19" data-yearly="15">19</span>€<small>/mese</small></p>
+        <ul>
+          <li>Tutto ciò che include Start</li>
+          <li>Coach dedicato in chat</li>
+          <li>Piano nutrizionale base</li>
+          <li>Videochiamata mensile</li>
+        </ul>
+        <a href="#contatti" class="btn btn-primary">Scegli Pro</a>
+      </article>
+
+      <article class="price-card reveal">
+        <h3>Elite</h3>
+        <p class="price"><span class="amount" data-monthly="39" data-yearly="31">39</span>€<small>/mese</small></p>
+        <ul>
+          <li>Tutto ciò che include Pro</li>
+          <li>Programmazione 100% personalizzata</li>
+          <li>Check settimanale con il coach</li>
+        </ul>
+        <a href="#contatti" class="btn btn-ghost">Scegli Elite</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== RECENSIONI ===== -->
+  <section class="section" id="recensioni">
+    <p class="eyebrow">Recensioni</p>
+    <h2>Chi si allena con noi</h2>
+    <div class="reviews">
+      <blockquote class="review reveal">
+        <p>"In 4 mesi ho perso 8 kg e, per la prima volta, non ho mollato. Il piano si adatta alle mie settimane incasinate."</p>
+        <footer>— Giulia, 29 · Milano</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>"Il coach in chat fa la differenza: correzioni sui video, motivazione vera. Sembra di avere un PT in tasca."</p>
+        <footer>— Marco, 41 · Bari</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p>"Lavoro su turni e mi serviva flessibilità totale. Lumen Flow mi ha sistemato la schiena in due mesi."</p>
+        <footer>— Sara, 35 · Torino</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== CTA FINALE + FOOTER ===== -->
+  <section class="cta-final" id="contatti">
+    <h2>Accendi il tuo allenamento.</h2>
+    <p>7 giorni gratis, nessuna carta richiesta. Disdici quando vuoi.</p>
+    <div class="cta-form">
+      <input type="email" id="emailInput" placeholder="La tua email" aria-label="La tua email">
+      <button class="btn btn-solar" id="ctaBtn">Inizia gratis</button>
+    </div>
+    <p class="form-msg" id="formMsg" role="status"></p>
+  </section>
+
+  <footer class="footer">
+    <a href="#home" class="logo">LUMEN<span>X</span></a>
+    <p>© 2026 LumenX · Allenamento online, ovunque tu sia.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
